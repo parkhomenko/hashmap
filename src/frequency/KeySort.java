@@ -4,6 +4,9 @@ import java.util.Comparator;
 import java.util.Map;
 import java.util.Map.Entry;
 
+/**
+ * Sorts by the key of the map
+ */
 public class KeySort implements Comparator<Map.Entry<String, Integer>> {
 
     @Override
